@@ -17,7 +17,7 @@
                          Handler="Button_Click" />
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid x:Name="rejilla">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
             <RowDefinition Height="*" />
@@ -40,78 +40,7 @@
                 <TextBlock x:Name="valorTextBlock" />
             </Viewbox>
         </Border>
-        <Button Grid.Row="1"
-                Grid.Column="0"
-                Margin="10,10,5,0"
-                Tag="1">
-            <Viewbox>
-                <TextBlock Text="1" /> 
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="1"
-                Grid.Column="1"
-                Margin="5,10,5,5"
-                Tag="2">
-            <Viewbox>
-                <TextBlock Text="2" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="1"
-                Grid.Column="2"
-                Margin="5,10,10,5"
-                Tag="3">
-            <Viewbox>
-                <TextBlock Text="3" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="2"
-                Grid.Column="0"
-                Margin="10,5,5,5"
-                Tag="4">
-            <Viewbox>
-                <TextBlock Text="4" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="2"
-                Grid.Column="1"
-                Margin="5,5,5,5"
-                Tag="5">
-            <Viewbox>
-                <TextBlock Text="5" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="2"
-                Grid.Column="2"
-                Margin="5,5,10,5"
-                Tag="6">
-            <Viewbox>
-                <TextBlock Text="6" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="3"
-                Grid.Column="0"
-                Margin="10,5,5,10"
-                Tag="7">
-            <Viewbox>
-                <TextBlock Text="7" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="3"
-                Grid.Column="1"
-                Margin="5,5,5,10"
-                Tag="8">
-            <Viewbox>
-                <TextBlock Text="8" />
-            </Viewbox>
-        </Button>
-        <Button Grid.Row="3"
-                Grid.Column="2"
-                Margin="5,5,10,10"
-                Tag="9">
-            <Viewbox>
-                <TextBlock Text="9" />
-            </Viewbox>
-        </Button>
+       
         <Button Grid.Row="4"
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
