@@ -45,7 +45,7 @@
                 Margin="10,10,5,0"
                 Tag="1">
             <Viewbox>
-                <TextBlock Text="1" />
+                <TextBlock Text="1" /> 
             </Viewbox>
         </Button>
         <Button Grid.Row="1"
